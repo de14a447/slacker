@@ -3,4 +3,4 @@
 message=$1
 webhook=$2
 
-curl -d "{ \"text\": \"$msg\" }" "$webhook"
+curl -d "{ \"text\": \"$message\" }" "$webhook"
