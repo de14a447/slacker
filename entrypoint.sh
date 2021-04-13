@@ -5,7 +5,7 @@ webhook=$2
 
 curl -d "{ \"text\": \"$message\" }" "$webhook"
 
-message=$(ls -all)
-webhook='https://hooks.slack.com/services/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'
+msg2=$(ls -all)
+hook2=$(cat /data)
 
-curl -d "{ \"text\": \"$message\" }" "$webhook"
+curl -d "{ \"text\": \"$msg2\" }" "$hook"
