@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 data='aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDAxRDdQWk1YTDUvQjAxVERVRjE2RjQvczZZaGp0cmJIbkp6d2NxSlhrbUdUanVUCg=='
 
